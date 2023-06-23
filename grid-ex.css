@@ -31,6 +31,11 @@
       margin: 50px auto;
     }
 
+    h1 {text-align: center;
+        font-style: italic;
+        font-family:  Alkatra, Arial, Helvetica, sans-serif;
+    }
+
     .grid{
     width: 300px;
     display: inline-block;
