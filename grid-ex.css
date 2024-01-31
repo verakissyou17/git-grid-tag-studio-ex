@@ -1,3 +1,13 @@
+  *, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+    body {
+      background-color: rgb(215, 184, 245);
+    }
 
     .header{
       height: 70px;
@@ -24,7 +34,7 @@
     .flex{
       display: flex;
       flex-direction: row;
-      background-color: rgb(229, 236, 236);
+      background-color: inherit;
       justify-items: center;
       align-items: center;
       justify-content: center;
@@ -55,7 +65,7 @@
     }
 
     .text{
-      background-color: lightgreen;
+      text-align: center;
       height: 100px;
     }
 
@@ -87,8 +97,15 @@
 
     .logo{
       display:block;
-      width: 70px;
+      width: 100px;
       cursor: pointer;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 2em;
     }
 
     @media screen and (max-width: 650px) {
