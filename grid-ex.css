@@ -92,7 +92,9 @@
     }
 
   .facebook-logo,
-  .youtube-logo  {
+  .youtube-logo,
+  .instagram-logo,
+  .vimeo-logo  {
     width: 30px;
     padding: .25em;
     cursor: pointer;
