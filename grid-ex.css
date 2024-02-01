@@ -94,6 +94,7 @@
   .facebook-logo,
   .youtube-logo  {
     width: 30px;
+    padding: .25em;
     cursor: pointer;
   }
 
