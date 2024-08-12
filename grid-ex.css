@@ -7,7 +7,11 @@
     body {
       background-color: #23424A;
       font-family: 'Alkatra', sans-serif;
-      margin-top: 6em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
     }
 
     .header{
@@ -16,10 +20,9 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      position: fixed;
+      position: sticky;
       top: 0;
-      left: 0;
-      right: 0;
+      width: 100%;
       background-color:#136c72;
       z-index: 100;
     }
@@ -57,12 +60,15 @@
     }
 
     .box img {
-      width: 100%;
+      display: block;
+      max-width: 100%;
       object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     }
 
     img:hover {
-      transform: scale(0.8);
+      transform: scale(1.1);
       transition: 1s ease;
     }
 
